@@ -4,3 +4,6 @@ mother.port=55800
 
 # Facebook
 facebook.token=SetYourToken
+facebook.webhook.port=8080
+facebook.app_id=
+facebook.secret=

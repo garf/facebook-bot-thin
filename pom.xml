@@ -94,22 +94,11 @@
             <artifactId>commons-configuration</artifactId>
             <version>1.6</version>
         </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.22</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.fusesource.jansi/jansi -->
         <dependency>
             <groupId>org.fusesource.jansi</groupId>
             <artifactId>jansi</artifactId>
             <version>1.14</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-nop -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-nop</artifactId>
-            <version>1.7.22</version>
         </dependency>
         <dependency>
             <groupId>org.apache.opennlp</groupId>
@@ -121,6 +110,16 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.replyyes</groupId>
+            <artifactId>facebook-messenger</artifactId>
+            <version>0.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.facebook.android</groupId>
+            <artifactId>facebook-android-sdk</artifactId>
+            <version>LATEST</version>
         </dependency>
     </dependencies>
     <properties>
