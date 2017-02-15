@@ -18,7 +18,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>false</addClasspath>
-                            <mainClass>App</mainClass>
+                            <mainClass>bot.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -74,7 +74,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>App</mainClass>
+                            <mainClass>bot.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -117,14 +117,16 @@
             <version>4.5.2</version>
         </dependency>
         <dependency>
-            <groupId>com.replyyes</groupId>
-            <artifactId>facebook-messenger</artifactId>
-            <version>0.0.2</version>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.2.0</version>
         </dependency>
+        <!--  Gson: Java to Json conversion -->
         <dependency>
-            <groupId>com.facebook.android</groupId>
-            <artifactId>facebook-android-sdk</artifactId>
-            <version>LATEST</version>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <properties>
